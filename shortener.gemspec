@@ -14,9 +14,15 @@ Gem::Specification.new do |s|
   s.homepage                  = "http://jamespmcgrath.com/projects/shortener"
   s.rubyforge_project         = "shortener"
   s.required_rubygems_version = "> 1.3.6"
-  s.add_dependency "rails", ">= 3.0.7"
   s.add_dependency "voight_kampff", '~> 1.0', '~> 1.1'
   s.add_development_dependency "sqlite3"
+  s.add_development_dependency 'activesupport', '~> 5.2.4.5'
+  s.add_development_dependency 'actionpack', '~> 5.2.4.5'
+  s.add_development_dependency 'actionview', '~> 5.2.4.5'
+  s.add_development_dependency 'activemodel', '~> 5.2.4.5'
+  s.add_development_dependency 'activerecord', '~> 5.2.4.5'
+  s.add_development_dependency 'actionmailer', '~> 5.2.4.5'
+  s.add_development_dependency 'railties', '~> 5.2.4.5'
   s.add_development_dependency "rspec-rails", '~> 3.3.0'
   s.add_development_dependency "shoulda-matchers", '~> 3'
   s.add_development_dependency "faker"
